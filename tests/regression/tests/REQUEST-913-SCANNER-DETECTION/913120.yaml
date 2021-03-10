@@ -38,6 +38,7 @@
       stage:
         input:
           dest_addr: 127.0.0.1
+          port: 80          
           headers:
             User-Agent: "ModSecurity CRS 3 Tests"
             Host: localhost
